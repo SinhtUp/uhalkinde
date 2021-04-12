@@ -1,0 +1,80 @@
+body{
+  margin: 0px;
+}
+#grundlayer{
+  background-color: #5c5c5c;
+
+}
+#hintergrund{
+  background-color: green;
+  width: 1000px;
+  height: 1500px;
+  top: 0px;
+  left: 20%;
+  position: relative;
+}
+
+#block1{
+  background-color: #c4bdad;
+  width: 1865px;
+  height: 100px;
+  top: 0px;
+  left: -23.5rem;
+  position: absolute;
+
+
+}
+
+#block2{
+  background-color: #c4bdad;
+  width: 1200px;
+  height: 600px;
+  top: 20rem;
+  left: -6.5rem;
+  position: absolute;
+  border-radius: 25px;
+}
+
+#bild{
+  width: 250px;
+  height:250px;
+  background-color: blue;
+  position: absolute;
+  left:40%;
+  top:-10rem;
+  border-radius: 500px;
+
+
+}
+
+#block3{
+  background-color: #c4bdad;
+  width: 500px;
+  height: 400px;
+  top: 62rem;
+  left: -6.5rem;
+  position: absolute;
+  border-radius: 25px;
+
+
+}
+
+#block4{
+  background-color: #c4bdad;
+  width: 500px;
+  height: 400px;
+  top: 62rem;
+  right: -6.5rem;
+  position: absolute;
+  border-radius: 25px;
+}
+
+#block5{
+  background-color: #c4bdad;
+  width: 1865px;
+  height: 100px;
+  bottom: 0px;
+  left: -23.5rem;
+  position: absolute;
+
+}
