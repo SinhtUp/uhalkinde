@@ -2,7 +2,7 @@ body{
   margin: 0px;
 }
 #grundlayer{
-  background-color: #5c5c5c;
+  background-color: #3b3b3b;
 
 }
 #hintergrund{
@@ -16,7 +16,7 @@ body{
 
 #block1{
   background-color: #c4bdad;
-  width: 1865px;
+  width: 1867px;
   height: 100px;
   top: 0px;
   left: -23.5rem;
