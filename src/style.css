@@ -1,10 +1,15 @@
+
+
 body{
   margin: 0px;
 }
 #grundlayer{
-  background-color: #3b3b3b;
-
+  display: block;
+  width: 1867px;
+  height: 1500px;
+  top: 0px;
 }
+
 #hintergrund{
   background-color: green;
   width: 1000px;
@@ -15,24 +20,62 @@ body{
 }
 
 #block1{
-  background-color: #c4bdad;
-  width: 1867px;
+  background-color: #3d3d3d;
+  width: 1863px;
   height: 100px;
   top: 0px;
   left: -23.5rem;
   position: absolute;
-
-
+  border-style: outset;
+  border-color: grey;
+}
+#block1inner{
+  width: 1867px;;
+  height: 80px;
+  background-color: #ffffff;
+  position: absolute;
+  display: inline-block;
+  right: -49.5%;
+  opacity: 85%;
 }
 
 #block2{
-  background-color: #c4bdad;
+  background-color: #ffffff;
   width: 1200px;
   height: 600px;
-  top: 20rem;
+  top: 19rem;
   left: -6.5rem;
   position: absolute;
   border-radius: 25px;
+  border-style: outset;
+  border-color: grey;
+  opacity: 85%;
+}
+#block2h1 {
+  font-family: "Arial", Arial, serif;
+  font-size: 40px;
+  left: 5rem;
+  top: 1rem;
+  position:relative;
+}
+
+#block2textblock{
+  width:80%;
+  height: 80%;
+  position:relative;
+  top: 3rem;
+  left: center;
+
+}
+
+
+#textblock2{
+  font-family: "Arial", Arial, serif;
+  font-size: 20px;
+  left: 5rem;
+  position:relative;
+
+
 }
 
 #bild{
@@ -40,41 +83,52 @@ body{
   height:250px;
   background-color: blue;
   position: absolute;
-  left:40%;
-  top:-10rem;
+  left:23.5rem;
+  top:10rem;
   border-radius: 500px;
 
 
 }
 
 #block3{
-  background-color: #c4bdad;
+  background-color: #ffffff;
   width: 500px;
   height: 400px;
-  top: 62rem;
+  top: 60rem;
   left: -6.5rem;
   position: absolute;
   border-radius: 25px;
+  border-style: outset;
+  border-color: grey;
+  opacity: 85%;
+}
 
+#skill1{
+  
 
 }
 
 #block4{
-  background-color: #c4bdad;
+  background-color: #ffffff;
   width: 500px;
   height: 400px;
-  top: 62rem;
+  top: 60rem;
   right: -6.5rem;
   position: absolute;
   border-radius: 25px;
+  border-style: outset;
+  border-color: grey;
+  opacity: 85%;
 }
 
 #block5{
-  background-color: #c4bdad;
-  width: 1865px;
+  background-color: #ffffff;
+  width: 1863px;
   height: 100px;
   bottom: 0px;
   left: -23.5rem;
   position: absolute;
+  border-style: outset;
+  border-color: grey;
 
 }
