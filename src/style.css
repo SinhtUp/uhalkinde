@@ -79,16 +79,28 @@ body{
 }
 
 #bild{
-  width: 250px;
-  height:250px;
-  background-color: blue;
+  width: 270px;
+  height:270px;
   position: absolute;
   left:23.5rem;
   top:10rem;
   border-radius: 500px;
+  border-style:outset;
+  border-width:thick;
+  border-color: #0c611e;
+  bordr
+  }
 
+  #picture{
+    position: relative;
+    top: .3rem;
+    left: .3rem;
+    border-style: inset;
+    border-width: thick;
+    border-color: grey;
+    border-radius: 500px;
 
-}
+  }
 
 #block3{
   background-color: #ffffff;
@@ -101,12 +113,12 @@ body{
   border-style: outset;
   border-color: grey;
   opacity: 85%;
-}
+  }
 
-#skill1{
-  
+  ul.skillliste{
+    list-style-type:none;
 
-}
+  }
 
 #block4{
   background-color: #ffffff;
